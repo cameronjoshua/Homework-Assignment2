@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+  padding-left: 15px;
+}
+
+header {
+  background-color: #31343d;
+}
+
+.light-blue, nav, li {
+  display: inline-block;
+}
+
+.light-blue {
+  background-color: #92cccd;
+  padding-left: 45px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  font-size: 50px;
+  font-weight: 500;
+  color: #31343d;
+}
+
+nav {
+  float: right;
+  padding-top: 50px;
+  padding-right: 3%;
+}
+
+a {
+  color: #8eb6eb;
+  font-size: 21px;
+  padding: 0 5px;
+}
+
+.background {
+  height: 200px;
+  background: linear-gradient(rgb(49 52 61), #8eb6eb);
+  position: relative;
+}
+
+h2 {
+  font-size:35px ;
+  padding-left: 10px;
+}
+
+h2.cool-subtitle {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  padding-left: 10px;
+}
+
+#about-me {
+  display: flex;
+ font-size: 30px;
+}
+
+#about-me > * {
+  margin-top: 20px;
+}
+
+#about-me > h2 {
+  border-right:3px solid #31343d;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#about-me > p {
+  padding-left: 30px;
+}
+
+#my-work {
+  font-size: 50px;
+  
+}
